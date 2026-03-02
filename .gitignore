@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+*.pyc/
+venv/
+Dataset/
+__pycache__/
+*.pyc/
+*.pyc
+deepfake_model.pth

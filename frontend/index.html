@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Deepfake Detector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>AI Video Deepfake Detector</h1>
+    <p>Upload a video to analyze authenticity</p>
+
+    <div class="upload-box" id="uploadBox">
+        <input type="file" id="videoInput" accept="video/*">
+        <p>Drag & Drop or Click to Upload</p>
+    </div>
+
+    <button onclick="analyzeVideo()">Analyze Video</button>
+
+    <div id="result" class="result"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
