@@ -96,13 +96,18 @@ AI_Video_Detection/
 └── static/
 
 ▶️ How to Run the Project
+
 1️⃣ Clone the Repository
 git clone https://github.com/AryaUnniSodha/AI-Video-Detection-using-CNN-based-Transfer-Learning.git
+
 cd AI-Video-Detection-using-CNN-based-Transfer-Learning
+
 2️⃣ Install Dependencies
 pip install -r requirements.txt
+
 3️⃣ Run the Flask Application
 python app.py
+
 4️⃣ Open in Browser
 http://127.0.0.1:5000/
 
