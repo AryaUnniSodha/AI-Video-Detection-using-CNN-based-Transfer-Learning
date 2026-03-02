@@ -29,15 +29,25 @@ We use a CNN-based transfer learning approach (MobileNetV2) to analyze individua
 🏗️ System Architecture
 
 Video Upload
+
       |
+      
 Frame Extraction using OpenCV
+
       |
+      
 Image Preprocessing (Resize, Normalize)
+
       |
+      
 CNN Prediction (MobileNetV2)
+
       |
+      
 Majority Voting
+
       |
+      
 Final Result Displayed on Web Interface
 
 
@@ -86,13 +96,21 @@ The model demonstrates effective feature extraction using transfer learning and 
 
 📂 Project Structure
 AI_Video_Detection/
+
 │
+
 ├── train_model.py
+
 ├── predict_video.py
+
 ├── app.py
+
 ├── requirements.txt
-├── README.md
+
+├── Read_me.md
+
 ├── templates/
+
 └── static/
 
 ▶️ How to Run the Project
